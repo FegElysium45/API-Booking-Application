@@ -78,9 +78,17 @@ WSGI_APPLICATION = 'ApiBookingProject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'your_database_name',
+        'USER': 'sqluser',
+        'PASSWORD': 'obaman_45',
+        'HOST': 'localhost',  # Set to the host where your MySQL server is running
+        'PORT': '3306',       # Set to the port where your MySQL server is listening
+        'OPTIONS': {
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+        },
     }
+
 }
 
 
