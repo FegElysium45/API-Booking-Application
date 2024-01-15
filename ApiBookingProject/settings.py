@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'my_database',
         'USER': 'kingsdb',
-        'PASSWORD': 'Obaman_45',
+        'PASSWORD': ' ',
         'HOST': 'localhost',  # Set to the host where your MySQL server is running
         'PORT': '3306',       # Set to the port where your MySQL server is listening
         'OPTIONS': {
