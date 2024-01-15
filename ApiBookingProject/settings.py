@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'ApiBookingProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': ' ',
+        'NAME': 'my_database',
         'USER': 'kingsdb',
         'PASSWORD': 'Obaman_45',
         'HOST': 'localhost',  # Set to the host where your MySQL server is running
