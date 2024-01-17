@@ -22,3 +22,16 @@ h2 {
     color: #333333;
     margin:1rem 0;
 }
+
+p, ul{
+    font-size: 1.25rem;;
+}
+
+a {
+    color: #EE9972;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
