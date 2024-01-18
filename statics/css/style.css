@@ -59,3 +59,23 @@ nav ul {
     padding-inline-start: 0rem;
     margin-bottom: 0px;
 }
+
+
+nav ul li {
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+nav ul a {
+    color: #EDEFEE;
+    text-decoration: none;
+}
+
+nav ul a:active {
+    text-decoration: underline;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+}
