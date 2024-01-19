@@ -79,3 +79,19 @@ nav ul a:hover {
     text-decoration: underline;
     text-decoration-thickness: 0.1rem;
 }
+
+section {
+    display: flex;
+    gap: 2rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    flex-direction: row;
+}
+
+article {
+    flex:1;
+}
+
+article img {
+    max-width: 100%;
+}
