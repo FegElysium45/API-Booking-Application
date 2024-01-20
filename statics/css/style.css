@@ -95,3 +95,22 @@ article {
 article img {
     max-width: 100%;
 }
+
+article ul {
+    list-style: none;
+}
+
+main article {
+    border: 1px solid #EDEFEE;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+figure {
+    margin: 0;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+  }

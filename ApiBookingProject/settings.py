@@ -79,9 +79,9 @@ WSGI_APPLICATION = 'ApiBookingProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'menu_items',
+        'NAME': 'reservations',
         'USER': 'kingsdb',
-        'PASSWORD': ' ',
+        'PASSWORD': 'Obaman_45',
         'HOST': 'localhost',  # Set to the host where your MySQL server is running
         'PORT': '3306',       # Set to the port where your MySQL server is listening
         'OPTIONS': {
